@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <h1>SkillUp Academy</h1>
+      <h1 className="bg-green-400">SkillUp Academy</h1>
     </>
   )
 }
