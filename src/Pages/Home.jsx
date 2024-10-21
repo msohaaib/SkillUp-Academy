@@ -1,15 +1,15 @@
 import HeroImage from '../assets/Hero-image.png';
-import GraphicDesigning from '../assets/graphicDesigning.jpg';
-import videoEditing from '../assets/videoEditing.jpg';
-import seo from '../assets/seo.jpg';
-import machineLearning from '../assets/machineLearning.jpg';
-import cyberSecurity from '../assets/cyberSecurity.png';
-import digitalMarketing from '../assets/DigitalMarketing.jpg';
-import testimonial01 from '../assets/testimonial01.jpg';
-import testimonial02 from '../assets/testimonial02.jpg';
-import testimonial03 from '../assets/testimonial03.jpg';
-import testimonial04 from '../assets/testimonial04.jpg';
-import testimonial05 from '../assets/testimonial05.jpg';
+import GraphicDesigning from '../assets/FeatureCourses/graphicDesigning.jpg';
+import videoEditing from '../assets/FeatureCourses/videoEditing.jpg';
+import seo from '../assets/FeatureCourses/seo.jpg';
+import machineLearning from '../assets/FeatureCourses/machineLearning.jpg';
+import cyberSecurity from '../assets/FeatureCourses/cyberSecurity.png';
+import digitalMarketing from '../assets/FeatureCourses/DigitalMarketing.jpg';
+import testimonial01 from '../assets/Testimonials/testimonial01.jpg';
+import testimonial02 from '../assets/Testimonials/testimonial02.jpg';
+import testimonial03 from '../assets/Testimonials/testimonial03.jpg';
+import testimonial04 from '../assets/Testimonials/testimonial04.jpg';
+import testimonial05 from '../assets/Testimonials/testimonial05.jpg';
 import { Link } from 'react-router-dom';
 
 const featureCourses = [
@@ -144,11 +144,6 @@ const Home = () => {
       </div>
       {/* Feature Courses Section End */}
 
-      {/* Testimonial Section */}
-      <div className='sm:p-8 mt-16'>
-        <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-center text-gray-800">Success Stories</h1>
-        <p className='mb-8 text-center text-gray-700'>Discover how our courses helped professionals achieve their goals and grow their skills.</p>
-      </div>
 {/* Testimonial Section */}
 <div className='sm:p-8 mt-16'>
   <h1 className="text-2xl sm:text-3xl font-bold mb-2 text-center text-gray-800">Success Stories</h1>
