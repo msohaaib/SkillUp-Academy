@@ -5,10 +5,11 @@ import ContactUs from './Pages/ContactUs';
 import Header from './Components/Header';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <Router> {/* Wrap your Routes in Router */}
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,6 +17,7 @@ function App() {
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
