@@ -10,7 +10,7 @@ const Header = () => {
 };
 
     return (
-    <div className="flex flex-row justify-between items-center p-4 bg-gray-800 text-white">
+    <div className="flex flex-row justify-between items-center p-4 bg-gray-800 text-white sticky top-0 z-50">
         <div className="font-bold text-xl">
         <h1>SkillUp Academy</h1>
     </div>
