@@ -18,6 +18,53 @@ import excelMastery from '../assets/Courses/excelMastery.jpeg'
 import blockChainBasics from '../assets/Courses/blockChainBasics.png'
 import copyWritting from '../assets/Courses/copyWritting.jpeg'
 import artificialIntelligence from '../assets/Courses/artificialIntelligence.jpeg'
+import publicSpeaking from '../assets/Courses/publicSpeaking.jpeg'
+import d3Animation from '../assets/Courses/3dAnimation.jpeg'
+import businessAnalytics from '../assets/Courses/businessAnalytics.jpeg'
+import gameDevelopment from '../assets/Courses/gameDevelopment.jpeg'
+import entreprenuership from '../assets/Courses/entreprenuership.jpeg'
+import cloudComputing from '../assets/Courses/cloudComputing.jpeg'
+import finincialModeling from '../assets/Courses/finincialModeling.jpeg'
+import projectManagement from '../assets/Courses/projectManagement.jpeg'
+import interiorDesigning from '../assets/Courses/interiorDesigning.jpeg'
+import uiuxDesign from '../assets/Courses/uiuxDesign.jpeg'
+import softwareTesting from '../assets/Courses/softwareTesting.jpeg'
+import databaseManagement from '../assets/Courses/databaseManagement.jpeg'
+import augmentedReality from '../assets/Courses/augmentedReality.jpeg'
+import hrManagement from '../assets/Courses/hrManagement.png'
+import supplyManagement from '../assets/Courses/supplyManagement.jpeg'
+import leadershipAndTeam from '../assets/Courses/leadershipAndTeam.jpeg'
+import eCommerceDevelopment from '../assets/Courses/eCommerceDevelopment.jpeg'
+import customerRelationManagement from '../assets/Courses/customerRelationManagement.jpeg'
+import networkFundamentals from '../assets/Courses/networkFundamentals.png'
+import financialAccounting from '../assets/Courses/financialAccounting.png'
+import virtualReality from '../assets/Courses/virtualReality d.jpg'
+import devopsEssentials from '../assets/Courses/devopsEssentials.jpeg'
+import ethicalHacking from '../assets/Courses/ethicalHacking.jpeg'
+import publicRelations from '../assets/Courses/publicRelations.png'
+import emailMarketing from '../assets/Courses/emailMarketing.jpeg'
+import dataVisualization from '../assets/Courses/dataVisualization.jpeg'
+import mobiilegameDevelopment from '../assets/Courses/mobiilegameDevelopment.jpeg'
+import bramdingEssentials from '../assets/Courses/bramdingEssentials.jpeg'
+import customerserviceExcellence from '../assets/Courses/customerserviceExcellence.jpeg'
+import dataEngineering from '../assets/Courses/dataEngineering.jpeg'
+import naturallanguageProcessing from '../assets/Courses/naturallanguageProcessing.jpeg'
+import dataMining from '../assets/Courses/dataMining.jpeg'
+import gameuiuxDesign from '../assets/Courses/gameuiuxDesign.jpeg'
+import itsupportFundamentals from '../assets/Courses/itsupportFundamentals.png'
+import advancedExcel from '../assets/Courses/advancedExcel.jpeg'
+import googleadsMastery from '../assets/Courses/googleaddMastery.jpeg'
+import desingThinking from '../assets/Courses/desingThinking.jpeg'
+import agilesoftwareDevelopment from '../assets/Courses/agilesoftwareDevelopment.jpeg'
+import microsoftAzureEssentials from '../assets/Courses/microsoftAzureEssentials.jpeg'
+import eventPlanningManagement from '../assets/Courses/eventPlanningManagement.jpeg'
+import timeManagement from '../assets/Courses/timeManagement.jpeg';
+import leadershipSkills from '../assets/Courses/leadershipSkills.png';
+import emotionalIntelligence from '../assets/Courses/emotionalIntelligence.jpeg';
+import stressManagement from '../assets/Courses/stressManagement.jpeg';
+import communicationSkills from '../assets/Courses/communicationSkills.jpeg';
+
+
 const courses = [
     {
         "id": 1,
@@ -26,7 +73,9 @@ const courses = [
         "category": "Design",
         "duration": "4 weeks",
         "instructor": "John Doe",
-        "image" : grphicDesign
+        "image": grphicDesign,
+        "popularity": 4.5,
+        "price": 99
     },
     {
         "id": 2,
@@ -35,7 +84,9 @@ const courses = [
         "category": "Media",
         "duration": "6 weeks",
         "instructor": "Jane Smith",
-        "image" : videoEditing
+        "image": videoEditing,
+        "popularity": 4.8,
+        "price": 149
     },
     {
         "id": 3,
@@ -44,7 +95,9 @@ const courses = [
         "category": "Marketing",
         "duration": "5 weeks",
         "instructor": "Emily Clark",
-        "image" : seo
+        "image": seo,
+        "popularity": 4.2,
+        "price": 129
     },
     {
         "id": 4,
@@ -53,7 +106,9 @@ const courses = [
         "category": "Tech",
         "duration": "8 weeks",
         "instructor": "Michael Green",
-        "image" : machineLearning
+        "image": machineLearning,
+        "popularity": 4.7,
+        "price": 199
     },
     {
         "id": 5,
@@ -62,7 +117,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Sophia Brown",
-        "image" : cyberSecurity
+        "image": cyberSecurity,
+        "popularity": 4.3,
+        "price": 159
     },
     {
         "id": 6,
@@ -71,7 +128,9 @@ const courses = [
         "category": "Marketing",
         "duration": "5 weeks",
         "instructor": "David White",
-        "image" : digitalMarketing
+        "image": digitalMarketing,
+        "popularity": 4.4,
+        "price": 99
     },
     {
         "id": 7,
@@ -80,7 +139,9 @@ const courses = [
         "category": "Programming",
         "duration": "7 weeks",
         "instructor": "Sarah Johnson",
-        "image" : pytthonProgramming
+        "image": pytthonProgramming,
+        "popularity": 4.6,
+        "price": 199
     },
     {
         "id": 8,
@@ -89,7 +150,9 @@ const courses = [
         "category": "Programming",
         "duration": "6 weeks",
         "instructor": "Brian Lee",
-        "image" : reactDevelopment
+        "image": reactDevelopment,
+        "popularity": 4.9,
+        "price": 179
     },
     {
         "id": 9,
@@ -98,7 +161,9 @@ const courses = [
         "category": "Tech",
         "duration": "10 weeks",
         "instructor": "Anna Davis",
-        "image" : webDevelopment
+        "image": webDevelopment,
+        "popularity": 4.5,
+        "price": 249
     },
     {
         "id": 10,
@@ -107,7 +172,9 @@ const courses = [
         "category": "Marketing",
         "duration": "3 weeks",
         "instructor": "William Harris",
-        "image" : contentWriting
+        "image": contentWriting,
+        "popularity": 4.1,
+        "price": 79
     },
     {
         "id": 11,
@@ -116,7 +183,9 @@ const courses = [
         "category": "Marketing",
         "duration": "5 weeks",
         "instructor": "Olivia Martin",
-        "image" : socialMediaMarketing
+        "image": socialMediaMarketing,
+        "popularity": 4.3,
+        "price": 119
     },
     {
         "id": 12,
@@ -125,7 +194,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Daniel Young",
-        "image" : wordpressDevelopment
+        "image": wordpressDevelopment,
+        "popularity": 4.6,
+        "price": 139
     },
     {
         "id": 13,
@@ -134,7 +205,9 @@ const courses = [
         "category": "Media",
         "duration": "4 weeks",
         "instructor": "Jessica Anderson",
-        "image" : photography
+        "image": photography,
+        "popularity": 4.5,
+        "price": 89
     },
     {
         "id": 14,
@@ -143,7 +216,9 @@ const courses = [
         "category": "Design",
         "duration": "5 weeks",
         "instructor": "Ethan Wilson",
-        "image" : illustration
+        "image": illustration,
+        "popularity": 4.7,
+        "price": 119
     },
     {
         "id": 15,
@@ -152,7 +227,9 @@ const courses = [
         "category": "Programming",
         "duration": "8 weeks",
         "instructor": "Henry Adams",
-        "image" : mobileAppDevelopment
+        "image": mobileAppDevelopment,
+        "popularity": 4.8,
+        "price": 229
     },
     {
         "id": 16,
@@ -161,7 +238,9 @@ const courses = [
         "category": "Tech",
         "duration": "9 weeks",
         "instructor": "Sophia Thompson",
-        "image" : dataScience
+        "image": dataScience,
+        "popularity": 4.9,
+        "price": 249
     },
     {
         "id": 17,
@@ -170,7 +249,9 @@ const courses = [
         "category": "Business",
         "duration": "4 weeks",
         "instructor": "James Allen",
-        "image" : excelMastery
+        "image": excelMastery,
+        "popularity": 4.3,
+        "price": 69
     },
     {
         "id": 18,
@@ -179,7 +260,9 @@ const courses = [
         "category": "Tech",
         "duration": "7 weeks",
         "instructor": "Mia Collins",
-        "image" : blockChainBasics
+        "image": blockChainBasics,
+        "popularity": 4.6,
+        "price": 199
     },
     {
         "id": 19,
@@ -188,8 +271,11 @@ const courses = [
         "category": "Marketing",
         "duration": "4 weeks",
         "instructor": "Lucas Walker",
-        "image" : copyWritting
+        "image": copyWritting,
+        "popularity": 4.4,
+        "price": 109
     },
+
     {
         "id": 20,
         "title": "Artificial Intelligence",
@@ -197,7 +283,9 @@ const courses = [
         "category": "Tech",
         "duration": "10 weeks",
         "instructor": "Noah Roberts",
-        "image" : artificialIntelligence
+        "image" : artificialIntelligence,
+        "popularity": 4.7,
+        "price": 129
     },
     {
         "id": 21,
@@ -206,7 +294,9 @@ const courses = [
         "category": "Personal Development",
         "duration": "3 weeks",
         "instructor": "Isabella Turner",
-        "image" : ""
+        "image" : publicSpeaking,
+        "popularity": 4.4,
+        "price": 149
     },
     {
         "id": 22,
@@ -215,7 +305,9 @@ const courses = [
         "category": "Design",
         "duration": "8 weeks",
         "instructor": "Jack Phillips",
-        "image" : ""
+        "image" : d3Animation,
+        "popularity": 4.8,
+        "price": 239
     },
     {
         "id": 23,
@@ -224,7 +316,9 @@ const courses = [
         "category": "Business",
         "duration": "6 weeks",
         "instructor": "Ava Campbell",
-        "image" : ""
+        "image" : businessAnalytics,
+        "popularity": 3.7,
+        "price": 85
     },
     {
         "id": 24,
@@ -233,7 +327,9 @@ const courses = [
         "category": "Programming",
         "duration": "12 weeks",
         "instructor": "Liam Carter",
-        "image" : ""
+        "image" : gameDevelopment,
+        "popularity": 4.5,
+        "price": 179
     },
     {
         "id": 25,
@@ -242,7 +338,9 @@ const courses = [
         "category": "Business",
         "duration": "5 weeks",
         "instructor": "Ella Hughes",
-        "image" : ""
+        "image" : entreprenuership,
+        "popularity": 4.3,
+        "price": 189
     },
     {
         "id": 26,
@@ -251,7 +349,9 @@ const courses = [
         "category": "Tech",
         "duration": "7 weeks",
         "instructor": "Elijah Flores",
-        "image" : ""
+        "image" : cloudComputing,
+        "popularity": 4.2,
+        "price": 249
     },
     {
         "id": 27,
@@ -260,7 +360,9 @@ const courses = [
         "category": "Finance",
         "duration": "6 weeks",
         "instructor": "Grace Murphy",
-        "image" : ""
+        "image" : finincialModeling,
+        "popularity": 4.0,
+        "price": 110
     },
     {
         "id": 28,
@@ -269,7 +371,9 @@ const courses = [
         "category": "Business",
         "duration": "6 weeks",
         "instructor": "Benjamin Kelly",
-        "image" : ""
+        "image" : projectManagement,
+        "popularity": 4.1,
+        "price": 79
     },
     {
         "id": 29,
@@ -278,7 +382,9 @@ const courses = [
         "category": "Design",
         "duration": "8 weeks",
         "instructor": "Charlotte Rivera",
-        "image" : ""
+        "image" : interiorDesigning,
+        "popularity": 4.6,
+        "price": 169
     },
     {
         "id": 30,
@@ -287,7 +393,9 @@ const courses = [
         "category": "Design",
         "duration": "6 weeks",
         "instructor": "Mason Edwards",
-        "image" : ""
+        "image" : uiuxDesign,
+        "popularity": 4.5,
+        "price": 159
     },
     {
         "id": 31,
@@ -296,7 +404,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Harper Simmons",
-        "image" : ""
+        "image" : softwareTesting,
+        "popularity": 4.0,
+        "price": 139
     },
     {
         "id": 32,
@@ -305,7 +415,9 @@ const courses = [
         "category": "Tech",
         "duration": "7 weeks",
         "instructor": "Evelyn Russell",
-        "image" : ""
+        "image" : databaseManagement,
+        "popularity": 3.9,
+        "price": 99
     },
     {
         "id": 33,
@@ -314,7 +426,9 @@ const courses = [
         "category": "Programming",
         "duration": "8 weeks",
         "instructor": "Ethan Peterson",
-        "image" : ""
+        "image" : augmentedReality,
+        "popularity": 4.7,
+        "price": 269
     },
     {
         "id": 34,
@@ -323,7 +437,9 @@ const courses = [
         "category": "Business",
         "duration": "5 weeks",
         "instructor": "Madison Cook",
-        "image" : ""
+        "image" : hrManagement,
+        "popularity": 3.8,
+        "price": 79
     },
     {
         "id": 35,
@@ -332,7 +448,9 @@ const courses = [
         "category": "Business",
         "duration": "6 weeks",
         "instructor": "Samuel Bell",
-        "image" : ""
+        "image" : supplyManagement,
+        "popularity": 3.9,
+        "price": 129
     },
     {
         "id": 36,
@@ -341,7 +459,9 @@ const courses = [
         "category": "Business",
         "duration": "4 weeks",
         "instructor": "Amelia James",
-        "image" : ""
+        "image" : leadershipAndTeam,
+        "popularity": 4.4,
+        "price": 189
     },
     {
         "id": 37,
@@ -350,7 +470,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Logan Martinez",
-        "image" : ""
+        "image" : eCommerceDevelopment,
+        "popularity": 4.8,
+        "price": 229
     },
     {
         "id": 38,
@@ -359,7 +481,9 @@ const courses = [
         "category": "Business",
         "duration": "5 weeks",
         "instructor": "Lily Taylor",
-        "image" : ""
+        "image" : customerRelationManagement,
+        "popularity": 3.7,
+        "price": 49
     },
     {
         "id": 39,
@@ -368,7 +492,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Mason Walker",
-        "image" : ""
+        "image" : networkFundamentals,
+        "popularity": 4.1,
+        "price": 139
     },
     {
         "id": 40,
@@ -377,7 +503,9 @@ const courses = [
         "category": "Finance",
         "duration": "5 weeks",
         "instructor": "Avery Young",
-        "image" : ""
+        "image" : financialAccounting,
+        "popularity": 3.7,
+        "price": 120
     },
     {
         "id": 41,
@@ -386,7 +514,9 @@ const courses = [
         "category": "Programming",
         "duration": "9 weeks",
         "instructor": "Ella Allen",
-        "image" : ""
+        "image" : virtualReality,
+        "popularity": 4.7,
+        "price": 269
     },
     {
         "id": 42,
@@ -395,7 +525,9 @@ const courses = [
         "category": "Tech",
         "duration": "7 weeks",
         "instructor": "Jackson Scott",
-        "image" : ""
+        "image" : devopsEssentials,
+        "popularity": 4.8,
+        "price": 179
     },
     {
         "id": 43,
@@ -404,7 +536,9 @@ const courses = [
         "category": "Tech",
         "duration": "8 weeks",
         "instructor": "Layla Lewis",
-        "image" : ""
+        "image" : ethicalHacking,
+        "popularity": 4.8,
+        "price": 279
     },
     {
         "id": 44,
@@ -413,7 +547,9 @@ const courses = [
         "category": "Marketing",
         "duration": "4 weeks",
         "instructor": "Daniel Hall",
-        "image" : ""
+        "image" : publicRelations,
+        "popularity": 4.5,
+        "price": 140
     },
     {
         "id": 45,
@@ -422,7 +558,9 @@ const courses = [
         "category": "Marketing",
         "duration": "3 weeks",
         "instructor": "Scarlett Rivera",
-        "image" : ""
+        "image" : emailMarketing,
+        "popularity": 4.2,
+        "price": 89
     },
     {
         "id": 46,
@@ -431,7 +569,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "William Gonzalez",
-        "image" : ""
+        "image" : dataVisualization,
+        "popularity": 4.1,
+        "price": 59
     },
     {
         "id": 47,
@@ -440,7 +580,9 @@ const courses = [
         "category": "Programming",
         "duration": "10 weeks",
         "instructor": "Grace Nelson",
-        "image" : ""
+        "image" : mobiilegameDevelopment,
+        "popularity": 4.7,
+        "price": 219
     },
     {
         "id": 48,
@@ -449,7 +591,9 @@ const courses = [
         "category": "Marketing",
         "duration": "5 weeks",
         "instructor": "Carter King",
-        "image" : ""
+        "image" : bramdingEssentials,
+        "popularity": 4.3,
+        "price": 130
     },
     {
         "id": 49,
@@ -458,7 +602,9 @@ const courses = [
         "category": "Business",
         "duration": "3 weeks",
         "instructor": "Luna Wright",
-        "image" : ""
+        "image" : customerserviceExcellence,
+        "popularity": 4.5,
+        "price": 99
     },
     {
         "id": 50,
@@ -467,7 +613,9 @@ const courses = [
         "category": "Tech",
         "duration": "7 weeks",
         "instructor": "James Adams",
-        "image" : ""
+        "image" : dataEngineering,
+        "popularity": 4.7,
+        "price": 210
     },
     {
         "id": 51,
@@ -476,7 +624,9 @@ const courses = [
         "category": "Tech",
         "duration": "8 weeks",
         "instructor": "Addison Clark",
-        "image" : ""
+        "image" : naturallanguageProcessing,
+        "popularity": 4.7,
+        "price": 129
     },
     {
         "id": 52,
@@ -485,7 +635,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Joshua Baker",
-        "image" : ""
+        "image" : dataMining,
+        "popularity": 4.3,
+        "price": 140
     },
     {
         "id": 53,
@@ -494,7 +646,9 @@ const courses = [
         "category": "Design",
         "duration": "6 weeks",
         "instructor": "Penelope Hill",
-        "image" : ""
+        "image" : gameuiuxDesign,
+        "popularity": 4.7,
+        "price": 279
     },
     {
         "id": 54,
@@ -503,7 +657,9 @@ const courses = [
         "category": "Tech",
         "duration": "4 weeks",
         "instructor": "Benjamin Wood",
-        "image" : ""
+        "image" : itsupportFundamentals,
+        "popularity": 4.0,
+        "price": 159
     },
     {
         "id": 55,
@@ -512,7 +668,9 @@ const courses = [
         "category": "Business",
         "duration": "5 weeks",
         "instructor": "Lily Cox",
-        "image" : ""
+        "image" : advancedExcel,
+        "popularity": 3.7,
+        "price": 69
     },
     {
         "id": 56,
@@ -521,7 +679,9 @@ const courses = [
         "category": "Marketing",
         "duration": "4 weeks",
         "instructor": "Jacob Diaz",
-        "image" : ""
+        "image" : googleadsMastery,
+        "popularity": 3.9,
+        "price": 79
     },
     {
         "id": 57,
@@ -530,7 +690,9 @@ const courses = [
         "category": "Design",
         "duration": "5 weeks",
         "instructor": "Ella Gray",
-        "image" : ""
+        "image" : desingThinking,
+        "popularity": 4.2,
+        "price": 149
     },
     {
         "id": 58,
@@ -539,7 +701,9 @@ const courses = [
         "category": "Tech",
         "duration": "7 weeks",
         "instructor": "Samuel Rogers",
-        "image" : ""
+        "image" : agilesoftwareDevelopment,
+        "popularity": 4.1,
+        "price": 159
     },
     {
         "id": 59,
@@ -548,7 +712,9 @@ const courses = [
         "category": "Tech",
         "duration": "6 weeks",
         "instructor": "Avery Torres",
-        "image" : ""
+        "image" : microsoftAzureEssentials,
+        "popularity": 4.1,
+        "price": 99
     },
     {
         "id": 60,
@@ -557,7 +723,64 @@ const courses = [
         "category": "Business",
         "duration": "4 weeks",
         "instructor": "Mia Bennett",
-        "image" : ""
+        "image" : eventPlanningManagement,
+        "popularity": 4.4,
+        "price": 139
+    },
+    {
+        "id": 61,
+        "title": "Time Management",
+        "description": "Learn to effectively manage your time and increase productivity with practical strategies and tools.",
+        "category": "Personal Development",
+        "duration": "3 weeks",
+        "instructor": "David Wilson",
+        "image": timeManagement,
+        "popularity": 4.5,
+        "price": 100
+    },
+    {
+        "id": 62,
+        "title": "Leadership Skills",
+        "description": "Develop the leadership skills necessary to inspire and lead a team towards success.",
+        "category": "Personal Development",
+        "duration": "5 weeks",
+        "instructor": "Sarah Johnson",
+        "image": leadershipSkills,
+        "popularity": 4.6,
+        "price": 179
+    },
+    {
+        "id": 63,
+        "title": "Emotional Intelligence",
+        "description": "Understand emotional intelligence and how it can enhance your personal and professional relationships.",
+        "category": "Personal Development",
+        "duration": "4 weeks",
+        "instructor": "Emily Watson",
+        "image": emotionalIntelligence,
+        "popularity": 4.5,
+        "price": 159
+    },
+    {
+        "id": 64,
+        "title": "Stress Management",
+        "description": "Discover techniques to manage stress and maintain a healthy work-life balance.",
+        "category": "Personal Development",
+        "duration": "3 weeks",
+        "instructor": "Michael Lee",
+        "image": stressManagement,
+        "popularity": 4.1,
+        "price": 110
+    },
+    {
+        "id": 5,
+        "title": "Communication Skills",
+        "description": "Enhance your communication skills to improve both personal and professional interactions.",
+        "category": "Personal Development",
+        "duration": "4 weeks",
+        "instructor": "Jessica Parker",
+        "image": communicationSkills,
+        "popularity": 4.6,
+        "price": 219
     }
 ]
 
