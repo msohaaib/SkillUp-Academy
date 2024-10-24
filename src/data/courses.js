@@ -72,7 +72,9 @@ const courses = [
         "description": "Learn the essentials of graphic design to create visual content using tools like Photoshop and Illustrator.",
         "category": "Design",
         "duration": "4 weeks",
-        "instructor": "John Doe",
+        "instructor": {
+            name : "John Doe",
+        },
         "image": grphicDesign,
         "popularity": 4.5,
         "price": 99
@@ -160,8 +162,24 @@ const courses = [
         "description": "Learn the essential skills to build responsive websites with HTML, CSS, and JavaScript.",
         "category": "Tech",
         "duration": "10 weeks",
-        "instructor": "Anna Davis",
-        "image": webDevelopment,
+        syllabus: [
+            'Introduction to HTML, CSS, and JavaScript',
+            'Responsive Design with Flexbox and Grid',
+            'React Basics and Advanced Concepts',
+            'Node.js and Express for Back-end Development',
+            'Building RESTful APIs',
+            'Deploying Full-Stack Applications',
+            ],
+            instructor: {
+            name: "Anna Davis",
+            bio: 'John is a senior web developer with 10+ years of experience building scalable web applications.',
+            profileImage: 'https://via.placeholder.com/150', // Placeholder image
+            },
+            reviews: [
+            { id: 1, name: 'Jane Smith', comment: 'Great course! Learned a lot about web development.' },
+            { id: 2, name: 'Mike Johnson', comment: 'The instructor explains everything clearly and concisely.' },
+            ],
+            "image": webDevelopment,
         "popularity": 4.5,
         "price": 249
     },

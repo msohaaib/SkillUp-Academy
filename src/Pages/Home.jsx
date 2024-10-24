@@ -123,7 +123,7 @@ const Home = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center gap-10 p-4'>
         {featureCourses.map((data) => (
           <Link
-            to="/SignUp"
+            to="/CourseDetail"
             key={data.id} 
             className="flex flex-col items-center shadow-md rounded-md overflow-hidden transition-transform duration-200 hover:shadow-lg hover:scale-105"
           >
@@ -132,11 +132,6 @@ const Home = () => {
               <h2 className='font-semibold text-lg mb-2'>{data.title}</h2>
               <p className='text-sm text-gray-700'>{data.description}</p>
               <div className='mt-6 mb-2'>
-                <Link 
-                  to="/SignUp"
-                  className="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-800 transition duration-300">
-                  Register Now
-                </Link>
               </div>
             </div>
           </Link>
