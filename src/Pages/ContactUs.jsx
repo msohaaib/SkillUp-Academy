@@ -3,8 +3,8 @@ import emailjs from 'emailjs-com';
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
-        from_name: '',  // Use 'from_name' to match EmailJS template
-        from_email: '', // Use 'from_email' for the email field
+        from_name: '', 
+        from_email: '', 
         subject: '',
         message: ''
     });
@@ -32,10 +32,10 @@ const ContactUs = () => {
             setErrors(validationErrors);
         } else {
             emailjs.send(
-                'service_amliri4', // Your service ID
-                'template_sa8pl1v', // Your template ID
+                'service_amliri4',
+                'template_sa8pl1v',
                 formData,
-                'IkVWpG3-duPkeUcue' // Your user ID
+                'IkVWpG3-duPkeUcue'
             )
             .then((response) => {
                 console.log('Email sent successfully:', response);
@@ -60,7 +60,7 @@ const ContactUs = () => {
                     </label>
                     <input
                         type="text"
-                        name="from_name" // Correctly matches the EmailJS expectation
+                        name="from_name"
                         value={formData.from_name}
                         onChange={handleChange}
                         className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -74,7 +74,7 @@ const ContactUs = () => {
                     </label>
                     <input
                         type="email"
-                        name="from_email" // Correctly matches the EmailJS expectation
+                        name="from_email"
                         value={formData.from_email}
                         onChange={handleChange}
                         className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -88,7 +88,7 @@ const ContactUs = () => {
                     </label>
                     <input
                         type="text"
-                        name="subject" // Correctly matches the form data
+                        name="subject"
                         value={formData.subject}
                         onChange={handleChange}
                         className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -127,9 +127,9 @@ const ContactUs = () => {
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.56352163915074!2d73.1593273089769!3d33.65673833637352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfea3616e402d1%3A0x783fc12637979889!2sHostel%20City%20Gull%20Block%20%2CBoys%20Hostel!5e0!3m2!1sen!2s!4v1729879867688!5m2!1sen!2s"
                         width="100%" 
                         height="250" 
-                        style={{ border: 0 }} // Changed to an object
+                        style={{ border: 0 }}
                         loading="lazy" 
-                        referrerPolicy="no-referrer-when-downgrade" // Corrected to use camelCase
+                        referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </div>
             </div>

@@ -123,7 +123,7 @@ const Home = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center gap-10 p-4'>
         {featureCourses.map((data) => (
           <Link
-            to="/CourseDetail"
+          to={`/course/${data.id}`}
             key={data.id} 
             className="flex flex-col items-center shadow-md rounded-md overflow-hidden transition-transform duration-200 hover:shadow-lg hover:scale-105"
           >
@@ -158,8 +158,6 @@ const Home = () => {
   ))}
 </div>
 {/* Testimonial Section End */}
-
-      {/* Testimonial Section End */}
     </div>
   );
 };

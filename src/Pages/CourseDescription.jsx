@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import courses from '../data/courses';
-import ProductDetail from '../Components/CourseDetail';
+import CourseDetail from '../Components/CourseDetail';
 
 const ProductPage = () => {
   const { productId } = useParams();
@@ -8,7 +8,7 @@ const ProductPage = () => {
 
   return (
     <div className="product-page">
-      <ProductDetail product={product} />
+      <CourseDetail product={product} />
     </div>
   );
 };
